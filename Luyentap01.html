@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="find"></p>
+    <p id="find2"></p>
+    <script>
+                     // Bài 1
+        // let numList = [];
+        // let total = [];
+        // for ( i = 0; i < 10; i++) {
+        //     let num = parseInt(prompt('Xin moi nhap so: '));
+        //     numList.push(num);
+        //     console.log(numList);
+        // }
+        // for(let i=0; i< numList.length; i++){
+        //     if(numList[i]>=10){
+        //         total.push(numList[i]);
+        //         console.log(numList[i]);
+        //     }
+        // }
+        // document.write('Nhung so lon hon 10 la: ' + total.length);
+
+        // let numList=[];
+        // let total =[];
+        // for(i=0; i<10; i++){
+        //  let num=prompt("Vui lòng nhập số: ");
+        //  numList.push(num);
+        //  console.log(numList[i]);
+        // }
+        // for(let i=0; i<10; i++){
+        //     if (numList[i]>=10){
+        //         total.push(numList[i]);
+        //         console.log(numList[i]);
+        //     }
+        // }
+        // document.write("Những số lớn hơn 10 là " + total);
+
+        // Bài 2
+        // let numlist=[];
+        // for(let i=0;i<10;i++){
+        //     let num=prompt("Vui lòng nhập số ")
+        //     numlist.push(num);
+        //     console.log(numlist[i])
+        // }
+        // let Max=numlist[0]
+        // for(let j=0;j<10;j++){
+        //     if (Max<numlist[j]){
+        //         Max=numlist[j]
+                
+        //     }
+        // }
+        // document.write("Số lớn nhất là " +Max);
+        // //Bài 3
+        // let numlist=[];
+      
+        // for(let i=0;i<10;i++){
+        //     let num=parseInt(prompt("Vui lòng nhập số "));
+        //     numlist.push(num);
+        //     console.log(numlist[i])
+        // }
+        // document.write(numlist + "<br>");
+        // let Max=numlist[0]
+        // for(let j=0;j<10;j++){
+        //     if (Max<numlist[j]){
+        //         Max=numlist[j]
+        //     }
+        // }
+        // console.log(numlist)
+        // document.write("Số lớn nhất là " + Max + "<br>");
+        // let total = 0; 
+        // for(k=0;k<10;k++){
+        //     total+= numlist[k];
+        //     console.log(total);
+        // }
+        // let TB= total/10;
+        // document.write("Tổng là " + total +"<br>");
+        // document.write("Trung bình" + TB);
+        //Bài 4
+        // let numlist=[];
+        // for (i=0;i<10;i++){
+        //     let num=parseInt(prompt("Vui lòng nhập số"));
+        //     console.log(numlist);
+        //     numlist.push(num);
+        // }
+        // document.write("Dãy số là: " + numlist + "<br>");
+        // let rev=numlist.reverse();
+        // document.write("Dãy số reverse là: " + rev);
+        // Bài 5
+        // let numlist=[];
+        // for (i=0;i<10;i++){
+        //     let num=parseInt(prompt("Vui lòng nhập số"));
+        //     console.log(numlist);
+        //     numlist.push(num);
+        // }
+        // document.write("Dãy số là: " + numlist + "<br>");
+        // let count=0;
+        // for(i=0;i<10;i++){
+        //     if(numlist[i]<0){
+        //         count=count +1;
+        //     }
+        // }
+        // document.write("Dãy có " + count + " số âm ");
+        // Bài 6
+        // let numlist=[];
+        // for (i=0;i<10;i++){
+        //     let num=parseInt(prompt("Vui lòng nhập số"));
+        //     console.log(numlist);
+        //     numlist.push(num);
+        // }
+        // document.write("Dãy số là: " + numlist + "<br>");
+        // let V=parseInt(prompt("Nhập số muốn tra "))
+        // for(const key in numlist){
+        //     if(V==numlist[key]){
+        //         document.getElementById("find").innerHTML= V+" is in the array"
+        //         break;
+        //     }
+        //     else{
+        //         document.getElementById("find").innerHTML= V+" is not in the array"
+        //     }
+        // }
+        // Bài 7
+        // let numlist=[];
+        // for (i=0;i<4;i++){
+        //     let num=parseInt(prompt("Vui lòng nhập số"));
+        //     console.log(numlist);
+        //     numlist.push(num);
+        // }
+        // let V=parseInt(prompt("Nhập số muốn tra "))
+        // for(i=0;i<4;i++){
+        //     if(V==numlist[i]){
+        //         // Cách 1
+        //         // a1 = numlist.slice(0, i);
+        //         // console.log(a1);
+        //         // a2 = numlist.slice(i + 1, 5);
+        //         // console.log(a2);
+        //         // new_arr = a1.concat(a2);
+        //         // console.log(new_arr);
+        //         // new_arr.push(0);
+        //         // Cách 2
+        //         numlist.splice(i,1);
+        //         numlist.push(0);
+        //     }
+             
+        // }
+        // document.write(numlist);
+
+    // Bài 8
+        // let numlist=[];
+        // for (i=0;i<10;i++){
+        //     let num=parseInt(prompt("Vui lòng nhập số"));
+        //     console.log(numlist);
+        //     numlist.push(num);
+        // }
+        // document.write("Dãy số ban đầu là: " + numlist + "<br>");
+        // numlist.sort(function(a, b){return b - a});
+        // document.getElementById("find").innerHTML= "Dãy được sắp xếp từ max->min là " +numlist;
+
+    // Bài 9
+        let a=[];
+        for (i=0;i<10;i++){
+            let num1=parseInt(prompt("Vui lòng nhập mảng 1"));
+            console.log(a);
+            a.push(num1);
+        }
+        document.write("Dãy số 1 là: " + a + "<br>");
+        let b=[];
+        for (i=0;i<10;i++){
+            let num2=parseInt(prompt("Vui lòng nhập mảng 2"));
+            console.log(b);
+            b.push(num2);
+        }
+        document.write("Dãy số 2 là: " + b + "<br>");
+        let c = a.concat(b);
+        document.write("Dãy số 3 là: " + c );
+    </script>
+</body>
+</html>

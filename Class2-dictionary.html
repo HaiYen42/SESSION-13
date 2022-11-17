@@ -33,17 +33,31 @@
         //     }
         // }
         // Cách 1:
-        let a=prompt("Vui lòng điền từ cần tra ");
-        let eng=["Bear", "Elephant", "Fox", "Giraffe", "Lion"];
-        let viet=["Gấu", "Voi", "Cáo", "Hươu cao cổ", "Sử tử"];
-        for(i=0;i<6;i++){
-            if(eng[i]==a){
-                document.getElementById("result").innerHTML=viet[i];
-                break;
+        // let a=prompt("Vui lòng điền từ cần tra ");
+        // let eng=["Bear", "Elephant", "Fox", "Giraffe", "Lion"];
+        // let viet=["Gấu", "Voi", "Cáo", "Hươu cao cổ", "Sử tử"];
+        // for(i=0;i<6;i++){
+        //     if(eng[i]==a){
+        //         document.getElementById("result").innerHTML=viet[i];
+        //         break;
+        //     }
+        //     else{
+        //         document.getElementById("result").innerHTML="Ko có kết quả"
+           
+        //     }
+        // }
+        // Cách 3:
+        let en =["Banana", "Apple", "Orange"];
+        let vi =["Chuối", "Táo", "Cam"];
+         
+        let input=prompt("Nhập từ muốn dịch");
+
+        for(const key in en){
+            if(input==en[key]){
+                document.write(en[key])
             }
             else{
-                document.getElementById("result").innerHTML="Ko có kết quả"
-           
+                document.write("Ko có")
             }
         }
         
