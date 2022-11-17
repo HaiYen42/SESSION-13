@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Bài 1
+        // let a=[
+        //     [1,2,1,24],
+        //     [8,11,9,4],
+        //     [7,0,7,27],
+        //     [3,10,26,7]
+        // ];
+        // for (var i in a){
+        //     console.log("row" + i)
+        //     document.write("row"+ i+"<br>");
+        //     for (var j in a[i]){
+        //         console.log(""+a[i][j]);
+        //         document.write(""+a[i][j]+"<br>")
+        //     }
+        // }
+        //Bài 2
+        // let arr=['c', 's', 'c', '2', '6','1']
+        // arr.reverse();
+        // console.log(arr);
+        // document.write(arr+"<br>");
+        // document.write(arr.join(''));
+        // console.log(arr.join(''));
+
+        //Bài 3
+        // let arr=[];
+        // for (i=0;i<10;i++){
+        //     let num=parseInt(prompt("Vui lòng nhập mảng"));
+        //     arr.push(num);
+        // }
+        // console.log(arr);
+        // document.write("Mảng là: "+arr+"<br>");
+        // console.log(arr.length);
+        // document.write("Số ký tự trong mảng là: " + arr.length)
+
+        //Bài 4
+        // let a=prompt("Vui lòng nhập 1 câu");
+        // let list=a.toString();
+        // let arr=list.split('');
+        // console.log(arr);
+        // document.write("Có " +arr.length+ " từ trong câu trên" )
+
+        // Bài 5
+        // let a=prompt("Vui lòng nhập câu 1:")
+        // let b=prompt("Vui lòng nhập câu cần tra: ")
+        // let a1=a.toString();
+        // let b1=b.toString();
+        // if(a1==b1){
+        //     document.write("2 câu giống nhau")
+        // } else{
+        //     document.write("2 câu khác nhau")
+        // }
+        //Bài 6
+            let str='My-name is-Yen'
+            let arr=str.split("")
+            console.log(arr);
+            for(i=0;i<arr.length;i++){
+                if(arr[i]=="-"){
+                arr[i] = "_";
+                }
+            }    
+            console.log(arr);
+            document.write(arr.join(""));
+    </script>
+</body>
+</html>
